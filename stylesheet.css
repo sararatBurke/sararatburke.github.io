@@ -1,5 +1,58 @@
-.menu img{
+body {
+	background-image: url("bg-03.jpg");
+}
+.nav {
+	background: #a3c2c2;
+	margin-top: 10px;
+	position: fixed; 
+	width: 100%;
+	height: 50px;
+}
+.nav li{ 
+	font-size: 20px;
+	display: inline;
+	color: #293d3d;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	margin-right: 10px;
+	text-shadow: 2px 2px 2px #f0f5f5; 
+}
+ul a: hover {
+	color: white;
+}
+.container img {
 	width: 100px;
     height: 100px;
     
+}
+
+#pull-left {
+    float: left; 
+     
+}
+
+.pull-right {
+	float: right;
+	margin-right: 20px;
+}
+
+.work {
+	width: 100%;
+	height: 80%;
+}
+
+.footer {
+	background-color: #142639;
+	position: relative;
+	width: 100%;
+	height: 35%;
+
+}
+
+.footer img {
+	margin-top:20px; 
+	position: relative;
+	width: 50px;
+	height: 50px;
+
 }
