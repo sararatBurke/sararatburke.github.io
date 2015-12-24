@@ -2,11 +2,12 @@ body {
 	background-color: #e0ebeb;
 }
 .nav {
-	background: #e0ebeb;
+	background: rgba(224, 235, 235,.8) ;
 	margin-top: -10px;
 	position: fixed; 
 	width: 100%;
 	height: 100px;
+
 }
 
  a {
