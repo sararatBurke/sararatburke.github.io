@@ -1,0 +1,96 @@
+body {
+	background-color: #e0ebeb;
+}
+/*hearder bar background*/
+.header {
+	background: rgba(224, 235, 235,.8) ;
+	border-bottom: 1px solid #75a3a3;
+	position: fixed;
+	margin-top:  -15px; 
+	width: 100%;
+	height: 80px;
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+/*logo*/
+.logo {
+	position: fixed;
+    float: left; 
+     
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: -15px;
+	margin-left: -25px;
+}
+.logo h2 {
+	font-size: 37px;
+	margin-top: -70px;
+	margin-left: 80px;
+	color: #004c4d;
+	text-shadow:2px 2px 2px #c2d6d6;
+}
+
+/*Header menu*/
+.headerMenu {
+	position: fixed;
+	margin-left: 500px;
+	margin-top: 30px;
+}
+.headerMenu> li{ 
+	display: inline;
+  	padding-left: 40px;
+  	padding-right: 20px;
+	font-size: 25px;
+	color:  #007f80;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 2px 2px 2px #94b8b8; 
+}
+/*Dropdown menu*/
+.portfolio-menu {
+	display: none;
+	position: fixed;
+	margin-left: 160px;
+	font-size: 18px;
+	list-style-type: none;
+	border-radius: 8px;
+	background-color: #a3c2c2;
+	box-shadow: 2px 2px 2px rgba(117, 163, 163, .4);
+	padding: 12px;
+
+}
+.portfolio-menu li a{
+	font-size: 20px;
+	color:  #334c4c;
+}
+
+.work {
+	width: 1440px;
+	height: 900px;
+}
+
+.footer {
+	clear: both;
+	background-color: #003333;
+	position: relative;
+	width: 100%;
+	height: 80px;
+	margin-top: -22px;
+}
+
+.footer img {
+
+	margin-top: 10px;
+	margin-right:20px; 
+	position: relative;
+	width: 50px;
+	height: 50px;
+
+}
