@@ -1,5 +1,13 @@
+var self = this;
+var dropdown = function() {
 
-var main = function() {
+	$('.previousArrow').click(function(){
+		rewardImage();
+	});
+	$('.nextArrow').click(function(){
+		forwardImage();
+	});
+
 	$('.dropdown-toggle').click(function() {
 		$('.portfolio-menu').toggle();
 	  });
@@ -30,12 +38,12 @@ var main = function() {
 
 }	
 
-$(document).ready(main);
+$(document).ready(dropdown);
 
 images = ['index/image/CA02.jpg', 'index/image/CA01.jpg', 'index/image/FW01.jpg', 'index/image/Animal01.jpg']
 
 
-setInterval(forwardImage, 4000);
+//setInterval(forwardImage, 4000);
 
 
 //This function will find the key for the current Image
