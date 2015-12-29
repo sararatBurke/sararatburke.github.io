@@ -72,18 +72,16 @@ a {
 	color:  #334c4c;
 }
 
+.slideHolder{
+	margin-left: -50px;
 }
-.slides{
-  	text-align: center;
-}
-
-.slide{
+/*.slide{
 	display: none;
 }
 
 .active-slide{
 	display: block;
-}
+}*/
 
 .previouseArrow {
   margin-right: 45px;
@@ -98,8 +96,6 @@ a {
   vertical-align: top;
   margin-top: 9px;
 }
-
-
 
 .footer {
 	clear: both;
