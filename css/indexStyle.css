@@ -7,6 +7,7 @@ body {
 	border-bottom: 1px solid #75a3a3;
 	position: fixed;
 	margin-top:  -15px; 
+	margin-left: -15px;
 	width: 100%;
 	height: 80px;
 	padding: 15px;
@@ -71,25 +72,50 @@ a {
 	color:  #334c4c;
 }
 
-.work {
-	width: 1440px;
-	height: 900px;
 }
+.slides{
+  	text-align: center;
+}
+
+.slide{
+	display: none;
+}
+
+.active-slide{
+	display: block;
+}
+
+.previouseArrow {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.nextArrow {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+
 
 .footer {
 	clear: both;
 	background-color: #003333;
-	position: relative;
-	width: 100%;
+	/*position: relative;*/
+
+	width: 1440px;
 	height: 80px;
-	margin-top: -22px;
+	margin-left: -15px;
+	
 }
 
 .footer img {
-
+	padding-left: 20px;
 	margin-top: 10px;
-	margin-right:20px; 
-	position: relative;
+	/*position: relative;*/
 	width: 50px;
 	height: 50px;
 
