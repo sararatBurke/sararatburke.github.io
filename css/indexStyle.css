@@ -76,13 +76,6 @@ a {
 	margin-top: 100px;
 	margin-left: -35px;
 }
-/*.slide{
-	display: none;
-}
-
-.active-slide{
-	display: block;
-}*/
 
 .previousArrow {
   display: inline-block;
@@ -106,17 +99,19 @@ a {
 .footer {
 	clear: both;
 	background-color: #003333;
-	/*position: relative;*/
-
 	width: 1440px;
 	height: 80px;
 	margin-left: 0px;
+	margin-top: -56px;
 	
 }
 
+.twitterLogo{
+	margin-left: 500px;
+}
 .footer img {
 	padding-left: 20px;
-	margin-top: 10px;
+	margin-top: 12px;
 	/*position: relative;*/
 	width: 50px;
 	height: 50px;
