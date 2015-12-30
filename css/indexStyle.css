@@ -6,7 +6,7 @@ body {
 	background: rgba(224, 235, 235,.8) ;
 	border-bottom: 1px solid #75a3a3;
 	position: fixed;
-	margin-top:  -15px; 
+	margin-top:  -110px; 
 	margin-left: -15px;
 	width: 1440px;
 	height: 80px;
@@ -73,6 +73,8 @@ a {
 }
 
 .slideHolder{
+	
+	margin-top: 100px;
 	margin-left: -35px;
 }
 /*.slide{
@@ -83,15 +85,16 @@ a {
 	display: block;
 }*/
 
-.previouseArrow {
-  margin-right: 45px;
+.previousArrow {
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
+  margin-left:25px ;
+  margin-top: -385px;
+   width: 30px;
+  height: 40px;
 }
 
 .nextArrow {
-  margin-left: 45px;
   display: inline-block;
   vertical-align: top;
   margin-top: -380px; 
