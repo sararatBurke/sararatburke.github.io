@@ -19,7 +19,7 @@ $(document).ready(dropdown);
 images = ['index/image/CA02.jpg', 'index/image/CA01.jpg', 'index/image/FW01.jpg', 'index/image/Animal01.jpg']
 
 
-//setInterval(forwardImage, 4000);
+setInterval(forwardImage, 4000);
 
 
 //This function will find the key for the current Image
