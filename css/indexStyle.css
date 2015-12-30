@@ -94,7 +94,11 @@ a {
   margin-left: 45px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
+  margin-top: -380px; 
+  margin-left: 1250px; 
+  width: 30px;
+  height: 40px;
+
 }
 
 .footer {
