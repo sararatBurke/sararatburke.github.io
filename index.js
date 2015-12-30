@@ -23,19 +23,16 @@ setInterval(forwardImage, 4000);
 
 
 //This function will find the key for the current Image
-function currentImageKey() {
-    i = $.inArray(
-    	$('.slide').attr('src'), 
-    	images
-    	);
+function getCurrentImageKey() {
+    i = $.inArray($('.slide').attr('src'),images);
     return i;
 }
 
 //Tis fuction will move the slideshow reward one
 function reverseImage() {
-	currentImageKey();
-	if (i > 0){
-		changeImage(i - 1);
+	var currentImageKey = getCurrentImageKey();
+	if (currentImageKey > 0){
+		changeImage(currentImageKey - 1);
 	}
 	else{
 		changeImage(images.length - 1 );
@@ -44,9 +41,9 @@ function reverseImage() {
 
 //This function will move the slideshow forward one
 function forwardImage() {
-    currentImageKey();
-    if (i < images.length - 1) {
-        changeImage(i + 1);
+    var currentImageKey = getCurrentImageKey();
+    if (currentImageKey < images.length - 1) {
+        changeImage(currentImageKey + 1);
     } else {
         changeImage(0);
     }
