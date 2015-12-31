@@ -7,8 +7,8 @@ body {
 	border-bottom: 1px solid #75a3a3;
 	position: fixed;
 	margin-top:  -110px; 
-	margin-left: -15px;
-	width: 1440px;
+	margin-left: 5px;
+	width: 1410px;
 	height: 80px;
 	padding: 15px;
 }
@@ -41,7 +41,7 @@ a {
 /*Header menu*/
 .headerMenu {
 	position: fixed;
-	margin-left: 500px;
+	margin-left: 600px;
 	margin-top: 30px;
 }
 .headerMenu> li{ 
@@ -73,11 +73,15 @@ a {
 }
 
 .slideHolder{
+	width: 1440px;
+	height: 700px;
+	position: relative;
 	margin-top: 100px;
 	margin-left: -35px;
 }
 
 .previousArrow {
+	position: relative;
   display: inline-block;
   vertical-align: top;
   margin-left:25px ;
@@ -87,6 +91,7 @@ a {
 }
 
 .nextArrow {
+	position: relative;
   display: inline-block;
   vertical-align: top;
   margin-top: -380px; 
@@ -97,11 +102,12 @@ a {
 }
 
 .footer {
+	position: relative;
 	clear: both;
 	background-color: #003333;
 	width: 1440px;
 	height: 80px;
-	margin-left: 0px;
+	margin-left: 5px;
 	margin-top: -56px;
 	
 }
@@ -112,7 +118,7 @@ a {
 .footer img {
 	padding-left: 20px;
 	margin-top: 12px;
-	/*position: relative;*/
+	position: relative;
 	width: 50px;
 	height: 50px;
 
