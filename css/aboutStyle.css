@@ -1,12 +1,12 @@
 body {
-	background-color: #e0ebeb;
+	background:  #a3c2c2;
 }
 /*hearder bar background*/
 .header {
 	background: rgba(224, 235, 235,.8) ;
 	border-bottom: 1px solid #75a3a3;
 	position: fixed;
-	margin-top:  -15px; 
+	margin-top:  -130px; 
 	margin-left: -15px;
 	width: 100%;
 	height: 80px;
@@ -62,7 +62,7 @@ a {
 	font-size: 18px;
 	list-style-type: none;
 	border-radius: 8px;
-	background-color: #a3c2c2;
+	background-color: #f0f5f5;
 	box-shadow: 2px 2px 2px rgba(117, 163, 163, .4);
 	padding: 12px;
 
@@ -72,12 +72,29 @@ a {
 	color:  #334c4c;
 }
 
-.about img{
+.titleAbout{
+	background-color:  #293d3d;
+
+	border-radius: 20px;
+	width: 1200px;
+	height: 1000px;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+.aboutImage{
+	border: 10px;
+	border-radius: 10px;
+	box-shadow:  #85adad;
 	width: 824px;
 	height: 500px;
-	margin-top: 100px;
-	margin-left: 250px;
+	margin-top: 70px;
+	margin-left: 185px;
 
 }
 
-.about h1 
+.aboutMe{
+	color:  #c2d6d6;
+	font-family: Helvetica, sans-serif;
+	margin-top: 40px; 
+	margin-left: 150px;
+}
