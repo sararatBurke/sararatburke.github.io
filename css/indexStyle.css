@@ -1,13 +1,15 @@
 body {
 	background-color:  #a3c2c2;
+    margin: 0;
+    padding: 0;
 }
 /*hearder bar background*/
 .header {
 	background: rgba(224, 235, 235,.8) ;
 	border-bottom: 1px solid #75a3a3;
-	position: fixed;
-	margin-top:  -110px; 
-	margin-left: 5px;
+	position: relative;
+	margin-top:  -15px; 
+	/*margin-left: 0px;*/
 	width: 1410px;
 	height: 80px;
 	padding: 15px;
@@ -76,8 +78,8 @@ a {
 .slideHolder{
 	width: 1440px;
 	height: 700px;
-	/*position: relative;*/ 
-	margin-top: 100px;
+	/*position: relative;*/
+	margin-top: 0px;
 	margin-left: -35px;
 }
 
