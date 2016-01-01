@@ -85,7 +85,28 @@ a {
 	color:  #334c4c;
 }
 
+form{
+	position: relative;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: -30px;
 
+}
+
+fieldset{
+	padding:10px;
+	margin-top: 20px;
+	width: 600px;
+	font-size: 30px;
+	/*text-transform: uppercase;*/
+}		
+.contactBox{
+	background-color: #527a7a;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
 .contact{
 	width: 650px;
 	height: 100px;
@@ -95,10 +116,73 @@ a {
 	margin-left: auto;
 }
 .contact img { 
-
-	
 	margin-left: 25px;
 	width: 100px;
 	height: 100px;
+
+}
+p{
+	margin-left: 10px;
+}
+.contactBox{
+	font-size: 20px;
+	margin-left: 0px;
+}
+
+.first-last{
+	margin: 0px;
+	width: 600px;
+	height: 130px;
+}
+.first-lastBox{
+	margin-top: 10px;
+	padding-top: 20px; 
+	margin-left: 10px;
+}
+.firstText{
+	margin-left: 10px;
+}
+.lastText{
+	margin-left: 210px;
+}
+.e-mail{
+	margin: 0px;
+	width: 600px;
+	height: 100px;
+
+}
+label{
+	margin-left: 10px;
+}
+
+input[type=name]{
+    width: 275px;
+    height: 40px;
+    /*transition: ease-in-out, width .35s ease-in-out;*/
+}
+input[type=email] {
+    width: 565px;
+    height: 40px;
+
+}
+input[type=subject] {
+    width: 500px;
+    height: 40px;
+
+}
+input[type=message] {
+    width: 560px;
+    height: 200px;
+}
+input:focus { 
+    background-color: 	white;
+}
+input{
+	background-color: 	#e0ebeb;
+}
+input [type=submit]{
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
 
 }
