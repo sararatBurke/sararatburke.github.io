@@ -1,28 +1,32 @@
 body {
 	background-color:  #a3c2c2;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0px;
 }
 /*hearder bar background*/
 .header {
-	background: rgba(224, 235, 235,.8) ;
+	margin: auto;
+	position: relative;
+}
+.container{
+	margin-top: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	height: 100px;
+	width: 1410px;
+	background: rgba(224, 235, 235,.5) ;
 	border-bottom: 1px solid #75a3a3;
 	position: relative;
-	margin-top:  -15px; 
-	/*margin-left: 0px;*/
-	width: 1410px;
-	height: 80px;
-	padding: 15px;
+	z-index: 5000000;
 }
 
 a {
 	text-decoration: none;
-	
 }
 
 /*logo*/
 .logo {
-	position: fixed;
+	position: relative;
     float: left; 
      
 }
@@ -42,9 +46,12 @@ a {
 
 /*Header menu*/
 .headerMenu {
-	position: fixed;
+	position:absolute;
 	margin-left: 600px;
 	margin-top: 30px;
+}
+.menu{
+	padding-top: 50px;
 }
 .headerMenu> li{ 
 	display: inline;
@@ -58,8 +65,9 @@ a {
 }
 /*Dropdown menu*/
 .portfolio-menu {
+	z-index: 5000000;
 	display: none;
-	position: fixed;
+	position: absolute;
 	margin-left: 160px;
 	font-size: 18px;
 	list-style-type: none;
@@ -75,54 +83,67 @@ a {
 	color:  #334c4c;
 }
 
-.slideHolder{
-	width: 1440px;
-	height: 700px;
-	/*position: relative;*/
-	margin-top: 0px;
-	margin-left: -35px;
-}
-
 .previousArrow {
 	position: relative;
-  display: inline-block;
-  vertical-align: top;
-  margin-left:25px ;
-  margin-top: -385px;
-   width: 30px;
-  height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left:30px ;
+	margin-top: -385px;
+	width: 30px;
+  	height: 40px;
 }
 
 .nextArrow {
 	position: relative;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -380px; 
-  margin-left: 1250px; 
-  width: 30px;
-  height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -380px; 
+	margin-left: 1200px; 
+	width: 30px;
+	height: 40px;
 
+}
+.slides {
+	position: relative;
+	clear: both;
+	background-color: #003333;
+	width: 1410px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 0px;
+	border: 0px;
+	
+}
+.slide{
+	position: relative;
+	margin-top: -23px;
+	width: 1410px;
+	height: 600px;
 }
 
 .footer {
 	position: relative;
 	clear: both;
 	background-color: #003333;
-	width: 1440px;
-	height: 80px;
-	margin-left: 5px;
-	margin-top: -56px;
+	width: 1410px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 490px;
 	
 }
 
 .twitterLogo{
-	margin-left: 500px;
+	margin-left: 455px;
 }
 .footer img {
-	padding-left: 20px;
-	margin-top: 12px;
+	padding-left: 25px;
+	margin-top: 20px;
 	position: relative;
 	width: 50px;
 	height: 50px;
 
 }
+
