@@ -17,7 +17,6 @@ body {
 	background: rgba(224, 235, 235,.5) ;
 	border-bottom: 1px solid #75a3a3;
 	position: relative;
-	z-index: 5000000;
 }
 
 a {
@@ -50,9 +49,7 @@ a {
 	margin-left: 600px;
 	margin-top: 30px;
 }
-.menu{
-	padding-top: 50px;
-}
+
 .headerMenu> li{ 
 	display: inline;
   	padding-left: 40px;
