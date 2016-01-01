@@ -78,7 +78,7 @@ a {
 
 }
 .portfolio-menu li a{
-	position: relative;
+	position: absolute;
 	font-size: 20px;
 	color:  #334c4c;
 }

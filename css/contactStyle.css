@@ -1,26 +1,32 @@
 body {
-	background-color: #a3c2c2;
+	background-color:  #a3c2c2;
+    margin: auto;
+    padding: 0px;
 }
 /*hearder bar background*/
 .header {
-	background: rgba(224, 235, 235,.8) ;
-	border-bottom: 1px solid #75a3a3;
-	position: fixed;
-	margin-top:  -26px; 
-	margin-left: 5px;
+	margin: auto;
+	position: relative;
+}
+.container{
+	margin-top: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	height: 100px;
 	width: 1410px;
-	height: 80px;
-	padding: 15px;
+	background: rgba(224, 235, 235,.5) ;
+	border-bottom: 1px solid #75a3a3;
+	position: relative;
+	z-index: 5000000;
 }
 
 a {
 	text-decoration: none;
-	
 }
 
 /*logo*/
 .logo {
-	position: fixed;
+	position: relative;
     float: left; 
      
 }
@@ -40,9 +46,12 @@ a {
 
 /*Header menu*/
 .headerMenu {
-	position: fixed;
+	position:absolute;
 	margin-left: 600px;
 	margin-top: 30px;
+}
+.menu{
+	padding-top: 50px;
 }
 .headerMenu> li{ 
 	display: inline;
@@ -56,8 +65,9 @@ a {
 }
 /*Dropdown menu*/
 .portfolio-menu {
+	z-index: 5000000;
 	display: none;
-	position: fixed;
+	position: absolute;
 	margin-left: 160px;
 	font-size: 18px;
 	list-style-type: none;
@@ -68,16 +78,23 @@ a {
 
 }
 .portfolio-menu li a{
+	position: absolute;
 	font-size: 20px;
 	color:  #334c4c;
 }
 
-#first {
-	margin-left: 360px;
-}
 
+.contact{
+	width: 650px;
+	height: 100px;
+	position: relative;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
 .contact img { 
-	margin-top: 150px;
+
+	
 	margin-left: 25px;
 	width: 100px;
 	height: 100px;
