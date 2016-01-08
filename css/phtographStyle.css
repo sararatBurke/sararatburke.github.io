@@ -50,11 +50,20 @@ a {
 	color: #004c4d;
 	text-shadow:2px 2px 2px #c2d6d6;
 }
+#photograph{
+	vertical-align: top;
+	position: relative;
+	width: 250px;
+	margin: 0px;
+	margin-left: 100px;
+	margin-top: -20px;
+	padding: 0px;
 
+}
 /*Header menu*/
 .headerMenu {
 	position:absolute;
-	margin-left: 600px;
+	margin-left: 700px;
 	margin-top: 30px;
 }
 
