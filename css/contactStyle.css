@@ -90,6 +90,7 @@ form{
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: -30px;
+	
 
 }
 
@@ -97,7 +98,7 @@ fieldset{
 	padding:10px;
 	margin-top: 20px;
 	width: 600px;
-	font-size: 30px;
+	font-size: 32px;
 	font-family: "Lucida Console", monospace;
 	color: #293d3d;
 	/*text-transform: uppercase;*/
@@ -109,6 +110,7 @@ fieldset{
 	padding-right: 50px;
 
 }
+
 .contact{
 	width: 650px;
 	height: 100px;
@@ -133,6 +135,10 @@ p{
 	margin-left: 0px;
 }
 
+.nameBox {
+	font-size: 15px;
+}
+
 .first-last{
 	margin: 0px;
 	width: 600px;
@@ -144,10 +150,10 @@ p{
 	margin-left: 10px;
 }
 .firstText{
-	margin-left: 10px;
+	margin-left: 11px;
 }
 .lastText{
-	margin-left: 210px;
+	margin-left: 206px;
 }
 .e-mail{
 	margin: 0px;
