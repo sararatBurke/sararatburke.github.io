@@ -98,6 +98,8 @@ fieldset{
 	margin-top: 20px;
 	width: 600px;
 	font-size: 30px;
+	font-family: "Lucida Console", monospace;
+	color: #293d3d;
 	/*text-transform: uppercase;*/
 }		
 .contactBox{
@@ -126,6 +128,8 @@ p{
 }
 .contactBox{
 	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+	color: #b3cccc;
 	margin-left: 0px;
 }
 
