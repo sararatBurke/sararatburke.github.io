@@ -63,7 +63,7 @@ a {
 	vertical-align: top;
 	position: absolute ;
 	margin: 0px;
-	margin-top: 5px;
+	margin-top: 7px;
 	margin-left: 140px;
 	padding: 0px;
 
@@ -92,7 +92,7 @@ a {
 	z-index: 5000000;
 	display: none;
 	position: absolute;
-	margin-left: 160px;
+	margin-left: 150px;
 	list-style-type: none;
 	border-radius: 8px;
 	text-transform: uppercase;
