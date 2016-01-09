@@ -51,9 +51,9 @@ a {
 	text-shadow:2px 2px 2px #c2d6d6;
 }
 #artWork{
-	 font-family: "Great Vibes",  cursive;  
+	 font-family: 'great_vibesregular';
 	 font-style: italic;
-	 font-size: 29px;
+	 font-size: 30px;
 	 color:#a3a375;
 	vertical-align: top;
 	position: absolute ;
@@ -67,7 +67,7 @@ a {
 /*Header menu*/
 .headerMenu {
 	position:absolute;
-	margin-left: 700px;
+	margin-left: 600px;
 	margin-top: 30px;
 }
 .menu{
@@ -129,4 +129,16 @@ a {
 	font-family: Helvetica, sans-serif;
 	margin-top: 40px; 
 	margin-left: 150px;
+}
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../fonts/great-vibes/greatvibes-regular-webfont.eot');
+    src: url('../fonts/great-vibes/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/great-vibes/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('../fonts/great-vibes/greatvibes-regular-webfont.woff') format('woff'),
+         url('../fonts/great-vibes/greatvibes-regular-webfont.ttf') format('truetype'),
+         url('../fonts/great-vibes/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
