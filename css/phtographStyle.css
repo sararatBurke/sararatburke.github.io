@@ -51,12 +51,15 @@ a {
 	text-shadow:2px 2px 2px #c2d6d6;
 }
 #photograph{
+	 font-family: "Great Vibes",  cursive;  
+	 font-style: italic;
+	 font-size: 29px;
+	 color:#a3a375;
 	vertical-align: top;
-	position: relative;
-	width: 250px;
+	position: absolute ;
 	margin: 0px;
-	margin-left: 100px;
-	margin-top: -20px;
+	margin-top: 8px;
+	margin-left: 120px;
 	padding: 0px;
 
 }
