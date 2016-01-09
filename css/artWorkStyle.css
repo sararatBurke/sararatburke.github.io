@@ -12,7 +12,7 @@ body {
 	margin-top: 0px;
 	margin-left: auto; 
 	margin-right: auto;
-	height: 100px;
+	height: 75px;
 	width: 1410px;
 	background: rgba(224, 235, 235,.5) ;
 	border-bottom: 1px solid #75a3a3;
@@ -33,51 +33,55 @@ a {
 .logo {
 	position: relative;
     float: left; 
-     
+    margin: 0px;
+    padding: 0px;
 }
 .logo img{
-	width: 100px;
-	height: 100px;
-	margin-top: -15px;
-	margin-left: -25px;
+	width: 80px;
+	height: 80px;
+	margin-left: 60px;
+	margin-top: 0px;
+
+	
 }
 .logo h2 {
-	font-size: 37px;
+	font-size: 27px;
 	font-family:"Pretty Script " ;
+
 	font-weight: 20px;
-	margin-top: -70px;
-	margin-left: 80px;
+	margin: 0px;
+	margin-left: 140px;
+	margin-top: -55px;
 	color: #004c4d;
 	text-shadow:2px 2px 2px #c2d6d6;
 }
 #artWork{
 	 font-family: 'great_vibesregular';
 	 font-style: italic;
-	 font-size: 30px;
+	 font-size: 27px;
 	 color:#a3a375;
 	vertical-align: top;
 	position: absolute ;
 	margin: 0px;
-	margin-top: 8px;
-	margin-left: 120px;
+	margin-top: 5px;
+	margin-left: 140px;
 	padding: 0px;
 
 }
 
 /*Header menu*/
 .headerMenu {
-	position:absolute;
-	margin-left: 600px;
-	margin-top: 30px;
+	position:relative;
+	float: right ;
+	margin-right: 60px;
+	margin-top: 25px;
 }
-.menu{
-	padding-top: 50px;
-}
+
 .headerMenu> li{ 
 	display: inline;
   	padding-left: 40px;
   	padding-right: 20px;
-	font-size: 25px;
+	font-size: 20px;
 	color:  #007f80;
 	text-decoration: none;
 	font-family: "Courier New", Courier, monospace;
