@@ -53,7 +53,7 @@ a {
 	color: #004c4d;
 	text-shadow:2px 2px 2px #c2d6d6;
 }
-/*#photograph{
+#photograph{
 	 font-family: 'great_vibesregular';
 	 font-style: italic;
 	 font-size: 28px;
@@ -65,7 +65,7 @@ a {
 	margin-left: 140px;
 	padding: 0px;
 
-}*/
+}
 /*Header menu*/
 .headerMenu {
 	position:relative;
@@ -214,7 +214,7 @@ a {
 	margin-left: 1270px;
 
 }
-/*
+
 @font-face {
     font-family: 'great_vibesregular';
     src: url('../fonts/great-vibes/greatvibes-regular-webfont.eot');
@@ -226,4 +226,4 @@ a {
     font-weight: normal;
     font-style: normal;
 
-}*/
+}
