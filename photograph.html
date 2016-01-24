@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/photographStyle.css">
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="index.js"></script>
+	<script src="js/photography.js"></script>
 	<title>index page</title>
 	<div class= "header">
 		<div class="container">
@@ -30,15 +30,16 @@
 		<ul id='photograph'>Photography</ul>
 		</div>
 	</div>
+
 </head>
 
 <body>
 
 	<div class="gallery-photo">
 
-		<img class="slidePhoto" alt="" src="portfolio/photograph/roadtrip011.jpg" />
+		<img id="slidePhoto" alt="" src="portfolio/photograph/roadtrip011.jpg" />
 		<div class='gallery'>
-			<img class='photo' src="portfolio/photograph/roadtrip011.jpg">
+			<img class='photo' src="portfolio/photograph/roadtrip011.jpg" onclick="changeMainImage(this)">
 			<img class='photo' src="portfolio/photograph/roadtrip012.jpg">
 			<img class='photo' src="portfolio/photograph/roadtrip013.jpg">
 			<img class='photo' src="portfolio/photograph/roadtrip014.jpg">

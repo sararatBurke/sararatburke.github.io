@@ -147,11 +147,11 @@ a {
 	border: 0px;
 	
 }
-.slidePhoto{
+#slidePhoto{
 	display: block;
 	position: relative;
 	margin-top: 0px;
-	width: 1210px;
+	width: 1410px;
 	height: 530px;
 	margin-left: auto;
 	margin-right: auto;
