@@ -6,16 +6,17 @@ var dropdown = function(){
 
 var gallery = function(){
 	$('.photo').click(function(){
-		//clickedImage();
-		alert('hello');
+		var clickImageSource = $(this).attr('src');
+		$('#slidePhoto').attr('src', clickImageSource);
 	});
+	
 }
 
+
+
 $(document).ready(function(){
-	alert('got to document ready');
 	dropdown();
 	gallery();
-	alert('done');
 });
 
 
