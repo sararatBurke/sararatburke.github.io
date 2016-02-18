@@ -120,3 +120,12 @@ a {
 	margin-top: 40px; 
 	margin-left: 150px;
 }
+.aboutHead{
+	margin: 0;
+	margin-left: 190px;
+	color: #669999;
+	font-size: 70px;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 3px 3px 3px rgba(71, 107, 107,.5); 
+
+}
