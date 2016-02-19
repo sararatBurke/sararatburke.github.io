@@ -115,20 +115,25 @@ a {
 }
 
 .aboutMe{
-	color:  #c2d6d6;
-	font-family:  sans-serif;
-	margin-top: 40px; 
-	margin-left: 150px;
-	width: 825px;
+	font-family: 'Optima';
+	font-variant: normal;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #669999;
+
 }
 .aboutHead{
-	
-	/*margin: 0;
-	margin-left: 190px;
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0;
+	margin-left: 100px;
 	color: #669999;
 	font-size: 70px;
 	line-height: 1.4em;
-	font-family: "Courier New", Courier, monospace;
 	text-shadow: 3px 3px 3px rgba(71, 107, 107,.5); 
-*/
+
 }
+
