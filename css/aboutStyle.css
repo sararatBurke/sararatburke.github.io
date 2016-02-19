@@ -111,28 +111,8 @@ a {
 	height: 500px;
 	margin-top: 70px;
 	margin-left: 185px;
-
 }
 
-.aboutMe{
-	font-family: 'Optima';
-	font-variant: normal;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 20px;
-	line-height: 1.4em;
-	color: #669999;
-
-}
-.aboutSara{
-	font-family: 'Optima';
-	font-style: normal;
-	font-size: 20px;
-	color:#669999;
-	margin-left: 100px;
-	width: 1050px;
-
-}
 .aboutHead{
 	font-family: 'Optima';
 	font-variant: small-caps;
@@ -145,4 +125,26 @@ a {
 	text-shadow: 3px 3px 3px rgba(71, 107, 107,.5); 
 
 }
+.aboutSara{
+	font-family: 'Optima';
+	font-style: normal;
+	font-size: 20px;
+	color:#669999;
+	margin-left: 0px;
+	
+
+}
+.aboutMe{
+	font-family: 'Optima';
+	font-variant: normal;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #669999;
+	margin-left: 145px;
+	width: 845px;
+}
+
+
 
