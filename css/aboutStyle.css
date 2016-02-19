@@ -124,6 +124,15 @@ a {
 	color: #669999;
 
 }
+.aboutSara{
+	font-family: 'Optima';
+	font-style: normal;
+	font-size: 20px;
+	color:#669999;
+	margin-left: 100px;
+	width: 1050px;
+
+}
 .aboutHead{
 	font-family: 'Optima';
 	font-variant: small-caps;
