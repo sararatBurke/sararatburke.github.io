@@ -91,30 +91,46 @@ a {
 	font-size: 20px;
 	color:  #334c4c;
 }
-
-form{
+	
+	/*text-transform: uppercase;*/
+		
+.contactHeader{
+	font-size: 50px;
 	position: relative;
-	margin-top: 0px;
-	margin-right: auto;
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0;
 	margin-left: -30px;
-
-
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #5c8a8a;
+	line-height: 1.4em;
+	text-shadow: 3px 3px 3px rgba(71, 107, 107,.2);
 }
 
-fieldset{
-	padding:10px;
-	margin-top: 20px;
+.icons{
+	position: relative;
+	margin: 0px;
+	margin-top: -70px;
+	margin-left: 250px;
+	width: 490px;
+}
+.icon { 
+	margin-left: 25px;
+	width: 60px;
+}
+.contactFrame{
+	position: relative;
 	width: 600px;
+	padding:20px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: -30px;
 	font-size: 32px;
-	font-family: "Lucida Console", monospace;
-	color: #293d3d;
-	/*text-transform: uppercase;*/
-}		
-.contactBox{
-	background-color: #527a7a;
-	padding: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	font-family: 'Optima';
+	color: #669999;
+	margin-bottom: 20px;
 
 }
 
@@ -122,52 +138,48 @@ fieldset{
 	width: 650px;
 	height: 100px;
 	position: relative;
-	margin-top: 60px;
+	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
-}
-.contact img { 
-	margin-left: 25px;
-	width: 100px;
-	height: 100px;
-
+	padding-bottom: 20px;
 }
 p{
 	margin-left: 10px;
 }
-.contactBox{
+.contactTitle{
 	font-size: 20px;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Optima';
 	color: #b3cccc;
 	margin-left: 0px;
+	background-color: #527a7a;
+	padding: 50px;
+	padding-top: 5px;
+	
+}
+.titleList{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.nameBox{
+	margin: 0px;
+	width: 600px;
 }
 
-.nameBox {
+.first-lastBox{ 
+	margin-left: 10px;
+}
+.first-lastText {
+	margin-top: 5px;
 	font-size: 15px;
 }
 
-.first-last{
-	margin: 0px;
-	width: 600px;
-	height: 130px;
+.firstName{
+	margin-left: 14px;
 }
-.first-lastBox{
-	margin-top: 10px;
-	padding-top: 20px; 
-	margin-left: 10px;
+.lastName{
+	margin-left: 225px;
 }
-.firstText{
-	margin-left: 11px;
-}
-.lastText{
-	margin-left: 206px;
-}
-.e-mail{
-	margin: 0px;
-	width: 600px;
-	height: 100px;
 
-}
 label{
 	margin-left: 10px;
 }
@@ -197,9 +209,19 @@ input:focus {
 input{
 	background-color: 	#e0ebeb;
 }
-input [type=submit]{
+.submit{
 	font-size: 20px;
-	width: 100px;
-	height: 50px;
+	width: 150px;
+	height: 60px;
+	border-radius: 13px;
+	border-color: #75a3a3;
+	background-color: #b3cccc;
+	font-family: "Optima";
+	color: #527a7a;
+}
+
+.email{
+	position: relative;
+	font-size: 15px;
 
 }
