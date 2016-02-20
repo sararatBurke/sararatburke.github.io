@@ -20,12 +20,24 @@ body {
 	position: relative;
 }
 
-a {
+/*header link style*/
+a{
 	text-decoration: none;
-	color: #5c8a8a;
 }
-.dropdown-toggle{
+.headerMenu a:hover {
 	text-decoration: underline;
+	color: #5c8a8a;
+	
+}
+.headerMenu a{
+	text-decoration: none;
+	color: #75a3a3;
+}
+.headerMenu a:active  {
+color: #94b8b8;
+}
+.active-link a{
+	color: #476b6b;
 }
 
 /*logo*/
@@ -79,9 +91,10 @@ a {
   	padding-left: 40px;
   	padding-right: 20px;
 	font-size: 20px;
-	color:  #007f80;
 	text-decoration: none;
-	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	color: #75a3a3;
+	font-family: "Optima";
 	text-shadow: 2px 2px 2px #94b8b8; 
 }
 /*Dropdown menu*/
@@ -102,7 +115,7 @@ a {
 }
 .portfolio-menu li a{
 	position: relative;
-	font-size: 20px;
+	font-size: 16px;
 	color:  #334c4c;
 }
 
