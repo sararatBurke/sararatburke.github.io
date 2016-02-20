@@ -19,13 +19,21 @@ body {
 	position: relative;
 	z-index: 5000000;
 }
-
-a {
-	text-decoration: none;
+a{
+	text-decoration: none;s
+}
+.headerMenu a:hover {
+	text-decoration: underline;
 	color: #5c8a8a;
+	
+}
+.headerMenu a {
+	text-decoration: none;
+	color: #75a3a3;
+	
 }
 #contact{
-	text-decoration: underline;
+	color: #5c8a8a;
 }
 
 /*logo*/
@@ -42,15 +50,15 @@ a {
 	margin-top: 0px;
 
 }
-.logo h2 {
+.logo h4 {
 	font-size: 27px;
-	font-family:"Pretty Script " ;
 	font-weight: 20px;
 	margin: 0px;
 	margin-left: 140px;
 	margin-top: -55px;
 	color: #004c4d;
 	text-shadow:2px 2px 2px #c2d6d6;
+	text-transform: uppercase;
 }
 
 /*Header menu*/
@@ -65,9 +73,10 @@ a {
   	padding-left: 40px;
   	padding-right: 20px;
 	font-size: 20px;
-	color:  #007f80;
 	text-decoration: none;
-	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	color: #75a3a3;
+	font-family: "Optima";
 	text-shadow: 2px 2px 2px #94b8b8; 
 }
 /*Dropdown menu*/
@@ -223,5 +232,6 @@ input{
 .email{
 	position: relative;
 	font-size: 15px;
+	color: #527a7a;
 
 }
