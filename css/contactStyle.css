@@ -101,7 +101,7 @@ a {
 	font-variant: small-caps;
 	font-weight: normal;
 	margin: 0;
-	margin-left: -30px;
+	margin-left: -55px;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	color: #5c8a8a;
@@ -126,7 +126,7 @@ a {
 	padding:20px;
 	margin: 0px;
 	margin-top: 0px;
-	margin-left: -30px;
+	margin-left: -55px;
 	font-size: 32px;
 	font-family: 'Optima';
 	color: #669999;
@@ -138,7 +138,7 @@ a {
 	width: 650px;
 	height: 100px;
 	position: relative;
-	margin-top: 0px;
+	margin: 0px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-bottom: 20px;
