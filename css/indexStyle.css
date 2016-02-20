@@ -100,7 +100,7 @@ color: #94b8b8;
 }
 .portfolio-menu li a{
 	position: relative;
-	font-size: 20px;
+	font-size: 16px;
 	color:  #334c4c;
 }
 .buttons{
@@ -121,7 +121,7 @@ color: #94b8b8;
 }
 
 .nextArrow {
-	/*position: relative;*/
+	position: relative;
 	display: inline-block;
 	margin-left: 1220px; 
 	width: 30px;

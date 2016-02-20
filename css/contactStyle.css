@@ -19,6 +19,7 @@ body {
 	position: relative;
 	z-index: 5000000;
 }
+/*header link style*/
 a{
 	text-decoration: none;
 }
@@ -99,7 +100,7 @@ color: #94b8b8;
 }
 .portfolio-menu li a{
 	position: relative;
-	font-size: 20px;
+	font-size: 16px;
 	color:  #334c4c;
 }
 	
