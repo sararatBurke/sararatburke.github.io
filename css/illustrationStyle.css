@@ -124,7 +124,16 @@ color: #94b8b8;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.image{
+	box-shadow: 2px 2px 2px 8px rgba(71, 107, 107,.2);
+	display: block;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	position: relative;
+}
 @font-face {
     font-family: 'great_vibesregular';
     src: url('../fonts/great-vibes/greatvibes-regular-webfont.eot');
