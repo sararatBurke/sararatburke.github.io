@@ -146,13 +146,30 @@ color: #94b8b8;
 	height: 40px;
 
 }
-
-.gallery-photo {
-	position: relative;
-	clear: both;
-	background-color: #1f2e2e;
+.headRoadTrip{
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	margin: 0;
+	margin-left: 200px;
+	color: #5c8a8a;
+	font-size: 50px;
+	line-height: 1.4em;
+	text-shadow: 3px 3px 3px rgba(71, 107, 107,.2); 
+}
+.background{
+	display: block;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 1410px;
-	height: 600px;
+	background-color: #1f2e2e;
+	
+}
+
+.gallery-photos {
+	position: relative;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
@@ -164,8 +181,8 @@ color: #94b8b8;
 	display: block;
 	position: relative;
 	margin-top: 0px;
-	width: 1410px;
-	height: 530px;
+	width: 1000px;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
