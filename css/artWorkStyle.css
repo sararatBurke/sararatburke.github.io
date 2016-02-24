@@ -119,6 +119,25 @@ color: #94b8b8;
 	color:  #334c4c;
 }
 
+.slides{
+	background-color:  #293d3d;
+	position: relative;
+	width: 1410px;
+	height: 620px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.image{
+	box-shadow: 2px 2px 2px 2px rgba(71, 107, 107,.2);
+	display: block;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	position: relative;
+}
 @font-face {
     font-family: 'great_vibesregular';
     src: url('../fonts/great-vibes/greatvibes-regular-webfont.eot');
