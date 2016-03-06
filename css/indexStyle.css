@@ -180,10 +180,10 @@ color: #94b8b8;
 
 
 /*setup css for mobile*/
-@media screen and (min-width:  480px) {
+@media screen and (max-width:  480px) {
 		    body {
 		    float:none;
-			width: asuto;
+			width: auto;
 			background-color:  #a3c2c2;
 		    margin: auto;
 		    padding: 0px;
@@ -333,16 +333,7 @@ color: #94b8b8;
 			position: relative;
 			margin: 0px;
 			width:91.95%;
-			
-		}
-
-		/*.contact{
-			width: ;
-			height: 50px;
-		}*/
-
-		.footer {
-			position: relative;
+			 
 			clear: both;
 			background-color: #003333;
 			width: auto;
