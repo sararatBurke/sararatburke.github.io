@@ -178,3 +178,185 @@ color: #94b8b8;
 
 }
 
+
+/*setup css for mobile*/
+@media screen and (min-width:  480px) {
+		    body {
+		    float:none;
+			width: asuto;
+			background-color:  #a3c2c2;
+		    margin: auto;
+		    padding: 0px;
+		}
+		/*hearder bar background*/
+		.header {
+			margin: auto;
+			position: relative;
+		}
+		.container{
+			margin-top: 0px;
+			margin-left: auto; 
+			margin-right: auto;
+			height: 75px;
+			width: auto;
+			background: rgba(224, 235, 235,.5) ;
+			border-bottom: 1px solid #75a3a3;
+			position: relative;
+			z-index: 5000000;
+		}
+
+		a {
+			text-decoration: none;
+		}
+		.headerMenu a{
+			text-decoration: none;
+			color: #75a3a3;
+		}
+		.headerMenu a:hover{
+			text-decoration: underline;
+			color: #5c8a8a;
+		}
+		.headerMenu a:active  {
+		color: #94b8b8;
+		}
+		.active-link a{
+			color: #476b6b;
+		}
+
+		/*logo*/
+		.logo {
+			position: relative;
+		    float: left; 
+		    margin: 0px;
+		    padding: 0px;
+		     
+		}
+		.logo img{
+			width: 80px;
+			height: 80px;
+			margin-left: 60px;
+			margin-top: 0px;
+
+		}
+		.logo h2 {
+			font-size: 27px;
+			font-family:"Pretty Script " ;
+			font-weight: 20px;
+			margin: 0px;
+			margin-left: 140px;
+			margin-top: -55px;
+			color: #004c4d;
+			text-shadow:2px 2px 2px #c2d6d6;
+		}
+
+		/*Header menu*/
+		.headerMenu {
+			position:relative;
+			float: right ;
+			margin-right: 60px;
+			margin-top: 25px;
+		}
+
+		.headerMenu> li{ 
+			display: inline;
+		  	padding-left: 40px;
+		  	padding-right: 20px;
+			font-size: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #75a3a3;
+			font-family: "Optima";
+			text-shadow: 2px 2px 2px #94b8b8; 
+		}
+		/*Dropdown menu*/
+		.portfolio-menu {
+			z-index: 5000000;
+			display: none;
+			position: absolute;
+			margin-left: 150px;
+			list-style-type: none;
+			border-radius: 8px;
+			text-transform: uppercase;
+			font-size: 16px;
+			background-color: 	#e0ebeb;
+			text-shadow: 2px 2px 2px rgba(163, 194, 194, .8);
+			box-shadow: 2px 2px 2px rgb(102, 153, 153, .8);
+			padding: 12px;
+
+		}
+		.portfolio-menu li a{
+			position: relative;
+			font-size: 16px;
+			color:  #334c4c;
+		}
+		.buttons{
+			/*display: none;*/
+			width: 450px;
+			height: 40px;
+			margin-top: 180px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		.previousArrow {
+			/*display: none;*/
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			width: 30px;
+		  	height: 40px;
+		}
+
+		.nextArrow {
+			/*display: none;*/
+			position: relative;
+			display: inline-block;
+			margin-left: 350px; 
+			width: 30px;
+			height: 40px;
+
+		}
+		.slides {
+			position:absolute;
+		    top:47%;
+		    min-height:100%;
+		    min-width:auto;
+		    display:block;
+		    left:50%;
+		    
+		    -webkit-transform: translate(-70.2%, -41%);
+		    
+
+		}
+		.slide{
+			position: relative;
+			margin: 0px;
+			width:91.95%;
+			
+		}
+
+		/*.contact{
+			width: ;
+			height: 50px;
+		}*/
+
+		.footer {
+			position: relative;
+			clear: both;
+			background-color: #003333;
+			width: auto;
+			margin-top: -4px;
+			margin-left: 25%;
+			
+			
+		}
+
+		.footer img {
+			margin-top: 20px;
+			position: relative;
+			width: 50px;
+
+		}
+}
+
