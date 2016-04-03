@@ -124,6 +124,24 @@ color: #94b8b8;
 	margin-right: auto;
 	padding-bottom: 50px;
 }
+p {
+    display: block;
+    -webkit-margin: 1em;
+    -webkit-margin: 1em;
+    -webkit-margin: 0px;
+    -webkit-margin: 0px;
+}
+
+#graphic{
+	position: relative;
+	margin: 0px;
+	margin-left: 70px;
+	font-size: 50px ;
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #5c8a8a;
+}
 .image{
 	box-shadow: 2px 2px 2px 8px rgba(71, 107, 107,.2);
 	display: block;
@@ -138,6 +156,7 @@ color: #94b8b8;
 	display: block;
 	width:1290px;
 	margin: 0px;
+	margin-top: 50px;
 	margin-left:auto;
 	margin-right: auto;
 }
@@ -155,6 +174,15 @@ color: #94b8b8;
 	width: 410px;
 	margin:0px;
 	margin-left: 15px;
+}
+.MrFinnText{
+	font-family: 'Optima';
+	font-style: normal;
+	font-size: inherit;
+	color: #a3c2c2;
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 @font-face {
     font-family: 'great_vibesregular';
