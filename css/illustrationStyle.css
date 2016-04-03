@@ -119,10 +119,10 @@ color: #94b8b8;
 	background-color:  #293d3d;
 	position: relative;
 	width: 1410px;
-	height: 620px;
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 50px;
 }
 .image{
 	box-shadow: 2px 2px 2px 8px rgba(71, 107, 107,.2);
@@ -133,6 +133,28 @@ color: #94b8b8;
 	margin-right: auto;
 	width: 400px;
 	position: relative;
+}
+.logos{
+	display: block;
+	width:1290px;
+	margin: 0px;
+	margin-left:auto;
+	margin-right: auto;
+}
+#logoHeader{
+	margin: 0px;
+	margin-left: 10px;
+	font-size: 50px ;
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #5c8a8a;
+}
+.MrFinnLogo{
+	display: inline-block;
+	width: 410px;
+	margin:0px;
+	margin-left: 15px;
 }
 @font-face {
     font-family: 'great_vibesregular';
