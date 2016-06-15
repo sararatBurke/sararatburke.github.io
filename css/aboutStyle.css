@@ -127,18 +127,23 @@ color: #94b8b8;
 	line-height: 1.4em;
 	text-shadow: 3px 3px 3px rgba(71, 107, 107,.2); 
 }
+
 .aboutImage{
 	border: 10px;
 	border-radius: 10px;
-	width: 845px;
+	width: 400px;
 	margin-top: 10px;
-	margin-bottom: 20px;
 	margin-left: 185px;
+	margin-bottom: -80px;
+	display: inline-block;
 }
 .aboutMe{
 	line-height: 1.4em;
-	margin-left: 145px;
-	width: 845px;
+	margin-left: 20px;
+	margin-bottom: 100px;
+	width: 400px;
+
+	display: inline-block;
 }
 .aboutSara{
 	font-family: 'Optima';
