@@ -119,28 +119,26 @@ color: #94b8b8;
 	color:  #334c4c;
 }
 
-.slides{
+.slider{
 	background-color:  #a3c2c2;
 	position: relative;
-	width: 1410px;
-	height: 620px;
-	margin-top: 0px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.images{
 	margin: auto;
-	width: 90%;
+	width:1410px;
+	
 	
 }
+.column{
+
+}
+
 .image{
 	box-shadow: 2px 2px 2px 2px rgba(71, 107, 107,.2);
-	display: inline;
-	margin-left: 15px;
+	display: inline-block;
+	margin-left: 10px;
 	margin-top: 20px;
 	
-	
-	width: 350px;
+	/*vertical-align:top;*/
+	width: 300px;
 	position: relative;
 }
 @font-face {

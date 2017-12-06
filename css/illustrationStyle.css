@@ -132,7 +132,7 @@ p {
     -webkit-margin: 0px;
 }
 
-#graphic{
+#BC{
 	position: relative;
 	margin: 0px;
 	margin-left: 70px;
@@ -142,14 +142,18 @@ p {
 	font-weight: normal;
 	color: #5c8a8a;
 }
-.image{
-	box-shadow: 2px 2px 2px 8px rgba(71, 107, 107,.2);
-	display: block;
+.allBC{
+	margin: auto;
+	margin-left: 100px;
+}
+.BC{
+	/*box-shadow: 2px 2px 2px 8px rgba(71, 107, 107,.2);*/
+	display: inline-block;
 	margin: 0px;
 	margin-top: 20px;
-	margin-left: auto;
+	margin-left: 40px;
 	margin-right: auto;
-	width: 400px;
+	width: 250px;
 	position: relative;
 }
 .logos{
@@ -169,13 +173,13 @@ p {
 	font-weight: normal;
 	color: #5c8a8a;
 }
-.MrFinnLogo{
+.Logo{
 	display: inline-block;
 	width: 410px;
 	margin:0px;
 	margin-left: 15px;
 }
-.MrFinnText{
+.LogosText{
 	font-family: 'Optima';
 	font-style: normal;
 	font-size: inherit;
