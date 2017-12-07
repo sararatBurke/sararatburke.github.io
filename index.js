@@ -16,7 +16,7 @@ var dropdown = function() {
 
 $(document).ready(dropdown);
 
-images = ['index/image/flower01.jpg', 'index/image/mountain.JPG','index/image/CA01.jpg', ]
+images = ['index/image/flower01.jpg', 'index/image/Kiser.jpg','index/image/CA01.jpg', ]
 
 
 setInterval(forwardImage, 4000);
