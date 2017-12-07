@@ -156,7 +156,29 @@ p {
 	width: 250px;
 	position: relative;
 }
-.logos{
+#BostonC{
+	margin: auto;
+	margin-left: 200px;
+}
+#Lunta{
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 400px;
+	position: relative;
+	display: block;
+}
+.Flyer{
+	position: relative;
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 50px ;
+	font-family: 'Optima';
+	font-variant: small-caps;
+	font-weight: normal;
+	width: 400px;
+	color: #5c8a8a;
+}
+.LayoutD{
 	display: block;
 	width:1290px;
 	margin: 0px;
@@ -164,7 +186,7 @@ p {
 	margin-left:auto;
 	margin-right: auto;
 }
-#logoHeader{
+#LayoutHeader{
 	margin: 0px;
 	margin-left: 10px;
 	font-size: 50px ;
@@ -187,6 +209,22 @@ p {
 	margin: 0px;
 	margin-top: 10px;
 	margin-left: 20px;
+}
+/*#Menus{
+	display: block;
+	width:1290px;
+	margin: 0px;
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right: auto;
+}*/
+.Menu{
+	display: inline-block;
+	width: 500px;
+	margin:0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	
 }
 @font-face {
     font-family: 'great_vibesregular';
